@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>User_salary</class>
+ <widget class="QWidget" name="User_salary">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="table_salary">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>270</y>
+     <width>1161</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>年份</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>月份</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>基本工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>岗位工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>绩效工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>房改补助</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>奖励</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>应发工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>公积金</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>扣税</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>考勤扣除</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>实发工资</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btn_back_user">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>20</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_quit">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>20</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_attendence">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>0</y>
+     <width>251</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>查看自己的
+考勤记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_show_pre">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>显示原本工资信息</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin</class>
+ <widget class="QWidget" name="Admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>250</y>
+     <width>351</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="btn_user_mag">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+      </property>
+      <property name="text">
+       <string>员工个人信息管理</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_sal_mag">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+      </property>
+      <property name="text">
+       <string>员工工资信息管理</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_sala_satis">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+      </property>
+      <property name="text">
+       <string>员工工资信息统计</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_user_sas">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+      </property>
+      <property name="text">
+       <string>员工个人信息统计</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+      </property>
+      <property name="text">
+       <string>恢复原来文件信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_back_login">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_quit">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+      </property>
+      <property name="text">
+       <string>退出</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>601</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Agency FB&quot;;
+font: 20pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#aa00ff;&quot;&gt;欢迎进入管理员界面&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="help">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>270</y>
+     <width>931</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>160</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Agency FB&quot;;
+color: rgb(170, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>一些小提醒</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

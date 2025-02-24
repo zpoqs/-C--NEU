@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin_salary_manage</class>
+ <widget class="QWidget" name="Admin_salary_manage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="table_mon_pre">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>230</y>
+     <width>1181</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>工号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>部门</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>职位</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>年份</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>月份</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>基本工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>岗位工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>绩效工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>房改补助</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>奖励</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>应发工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>公积金</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>扣税</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>考勤扣除</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>实发工资</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="table_mon_now">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>630</y>
+     <width>1181</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>工号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>部门</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>职位</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>年份</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>月份</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>基本工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>岗位工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>绩效工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>房改补助</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>奖励</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>应发工资</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>公积金</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>扣税</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>考勤扣除</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>实发工资</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btn_back_admin">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>590</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_quit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>740</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>130</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>请选择</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>岗位工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>绩效工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房改补助</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>应发工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>实发工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>公积金</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>扣税</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>奖励</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>考勤扣除</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>请选择</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>工号</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>岗位工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>绩效工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>应发工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>实发工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>公积金</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房改补助</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>工号+实发工资</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>岗位工资+绩效</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>应发工资+扣税</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="qurry_1">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>30</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qurry_2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>30</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qurry_3">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>30</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qurry_4">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>30</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>排序</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>70</y>
+     <width>201</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>查询信息2
+（若无则不填）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>100</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>90</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>年份</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>90</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>月份</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>100</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>查询信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_attend">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>400</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>录入员工考勤信息</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="path_attend">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>340</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>考勤信息文件路径（一个月）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>300</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="text">
+    <string>考勤信息文件路径：</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
